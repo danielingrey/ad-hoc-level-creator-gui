@@ -1,9 +1,22 @@
+/**
+*layerText.pde
+*Displays text on the layer selection screen component of the GUI.
+*
+*@author Daniel Ingrey
+*@version 1.0
+*/
 class LayerText {
-  int layerNum = 0;
+  int layerNum = 0; //current layer number
   
+  /**
+  * Constructor for the LayerText class.
+  */
   LayerText(){  
   }
   
+  /**
+  *Handles display and formatting of text on screen.
+  */
   void display() {   
    fill(255);
    textSize(15);
@@ -22,6 +35,9 @@ class LayerText {
    text("click rectangle above to\nproceed to next layer", 400, 470); 
   }
   
+  /**
+  *Increments layer number for display.
+  */
   void nextNum() {
     layerNum++;
   }

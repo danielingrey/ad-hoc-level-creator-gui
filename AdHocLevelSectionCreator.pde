@@ -1,6 +1,6 @@
 /**
 *AdHocLevelSectionCreator.pde
-*Purpose: Main processing file for a GUI to create and output 8x8x16 level sections as textfiles for later input to Unity for ad hoc level creation.
+*Main Processing file for a GUI to create and output 8x8x16 level sections as textfiles for later input to Unity for ad hoc level creation.
 *
 *@author Daniel Ingrey
 *@version 1.0
